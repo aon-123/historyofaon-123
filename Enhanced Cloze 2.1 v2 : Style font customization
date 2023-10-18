@@ -1,0 +1,24 @@
+.genuine-cloze[show-state="hint"] {
+    border-bottom: 2px solid transparent;
+		font-weight: bold;
+		color: #1768ff;
+    background-color: #bdfff8; 
+}
+.genuine-cloze[show-state="answer"] {
+    border-bottom: 1.2px solid #1768ff;
+		font-weight: bold;
+		color: #1768ff;
+    background-color: #bdfff8; 
+}
+.pseudo-cloze[show-state="hint"] {
+    border-bottom: 2px solid transparent;
+		font-weight: bold;
+		color: #1768ff;
+    background-color: #b8ffc7; 
+}
+.pseudo-cloze[show-state="answer"] {
+    border-bottom: 1.5px solid #1768ff;
+		font-weight: bold;
+		color: #1768ff;
+    background-color: #b8ffc7; 
+}
