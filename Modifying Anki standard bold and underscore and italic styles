@@ -1,0 +1,16 @@
+/* ~~~~~COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE~~~~~~*/
+b { 
+  color: #0a55f7 !important;
+	border-bottom: 2px solid #f70a0a; 
+}
+
+u { 
+  color: #1768ff
+	color: transparent !important;
+	background-color: #fffb82;
+} 
+
+i  { 
+  color: #f70a0a !important; 
+	font-weight: normal;
+}
