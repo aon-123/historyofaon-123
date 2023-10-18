@@ -1,0 +1,63 @@
+/*~~~~~~~~~COLORS~~~~~~~~~/
+/* Default Text Color */
+.card { 
+  color: #000000; 
+}
+/* Background Color */
+.card { 
+  background-color: #ffffff; 
+}
+/* Cloze Color */
+.cloze { 
+  color: #226ff5; 
+}
+/* "Extra" Field Color */
+#extra { 
+  color: #839496; 
+}
+/* Hint Reveal Color */
+.hints { 
+  color: #6c71c4; 
+}
+/* Missed Questions Hint Reveal Color */
+#missed { 
+  color: #dc322f; 
+}
+/* Timer Countdown Color */
+.timer {
+  color: #ebebeb;
+}
+/* Empty Link Color */
+a:not([href]),
+a[href^="javascript:"] {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/*~~~~~~~~NIGHT MODE COLORS~~~~~~~~*/
+/* NM Default Text Color */
+.nightMode.card, 
+.night_mode .card { 
+  color: #ffffff !important; 
+}
+/* NM Background Color */
+.nightMode.card, 
+.night_mode .card { 
+  background-color: #545454 !important; 
+}
+/* NM Cloze Color */
+.nightMode .cloze, 
+.night_mode .cloze { 
+  color: #ff73ef !important; 
+}
+/* NM "Extra" Field Color */
+.nightMode #extra, 
+.night_mode #extra { 
+  color: #839496; 
+}
+/* NM Hint Reveal Color */
+.nightMode .hints, 
+.night_mode .hints { 
+  color: #6c71c4;
+}
